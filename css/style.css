@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Ubuntu&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: 'Ubuntu', 'Noto Sans TC', sans-serif;
+}
+
+footer {
+    border-top: 1px solid #000;
+    background-color: #EEE;
+}
+
+.fs-auto {
+    font-size: 0.75rem;
+}
+
+.bg-main {
+    background-color: #216098;
+}
+
+.text-main {
+    color: #216098;
+}
+
+.bg-secondary {
+    background-color: #8AC554 !important;
+}
+
+.bg-very-light-gray {
+    background-color: #EEE;
+}
+
+.text-secondary {
+    color: #8AC554 !important;
+}
+
+.text-neutral-gray {
+ color: #b4b4b4;
+}
+
+.text-dark-gray {
+    color: #656667;
+}
+
+.nav-home a:hover {
+    background-color: #fff;
+}
+
+.nav-home-style {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.first-nav-active {
+    background-color: #24ABDE;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: #FFF;
+}
+
+.first-nav-active:hover {
+    background-color: #EEE;
+    color: #656668; 
+}
+
+#home:hover path {
+    fill: #656667;
+}
+
+.first-nav-link-style {
+    padding-top: 18px !important;
+    padding-bottom: 18px !important;
+    color: #FFF;
+}
+
+.first-nav-link-style:hover {
+    background-color: #EEE;
+    color: #656668;
+}
+
+.second-nav-link-style {
+    color: #656668;
+    text-decoration: none;
+}
+
+.second-nav-link-style:hover {
+    color: #216098;
+}
+
+.second-nav-link-style:hover path {
+    fill: #216098;
+}
+
+.second-nav-link-active {
+    color: #216098;
+}
+
+.second-nav-link-active path {
+    fill: #216098;
+}
+
+.icon-link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.icon-link:hover {
+    color: #D4D1CD;
+}
+
+.icon-link:hover path {
+    fill: #D4D1CD;
+}
+
+.paragraph-link {
+    color: #656668;
+    text-decoration: none;
+}
+
+.paragraph-link:hover {
+    color: #216098;
+}
+
+.index-img {
+    width: 100%;
+    height: 20em;
+}
+
+.filter-shadow {
+    filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.25));
+}
+
+.icon-style {
+    height: 60px;
+    filter: drop-shadow(0px 1px 2px rgba(0,0,0,0.25));
+}
+
+.QR-style {
+    width: 80px;
+    filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.25));
+}
+
+.base-50 {
+    height: 50px;
+}
+
+.base-66 {
+    height: 66.66px;
+}
+
+.base-100 {
+    height: 100px;
+}
+
+.base-133 {
+    height: 133.33px;
+}
+
+.base-150 {
+    height: 150px;
+}
+
+.base-200 {
+    height: 200px;
+}
+
+.base-266 {
+    height: 266.66px;
+}
+
+.base-400 {
+    height: 400px;
+}
+
+.color-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.product-white {
+    background-color: #f9f9f9;
+}
+
+.product-flat-gold {
+    background-color: #f5e6bb;
+}
+
+.product-black {
+    background-color: #323232;
+}
+
+.product-silver {
+    background-color: #ddeaef;
+    background-image: linear-gradient(-45deg,rgba(0,0,0,0.2),rgba(255,255,255,0.2),rgba(0,0,0,0.2));
+}
+
+.product-gold {
+    background-color: #f7cf80;
+    background-image: linear-gradient(-45deg,rgba(0,0,0,0.2),rgba(255,255,255,0.2),rgba(0,0,0,0.2));
+}
+
+.product-rose-gold {
+    background-color: #daa58e;
+    background-image: linear-gradient(-45deg,rgba(0,0,0,0.2),rgba(255,255,255,0.2),rgba(0,0,0,0.2));
+}
+
+.product-bronze {
+    background-color: #e2a5a4;
+    background-image: linear-gradient(-45deg,rgba(0,0,0,0.2),rgba(255,255,255,0.2),rgba(0,0,0,0.2));
+}
+
+.product-amsterdam-orange {
+    background-color: #e96838;
+}
+
+.product-ferrari-red {
+    background-color: #ff3a53;
+}
+
+.product-geneva-red {
+    background-color: #59505a;
+}
+
+.product-scotch-red {
+    background-color: #ff448b;
+}
+
+.product-hawaiian-blue {
+    background-color: #a2d6d4;
+}
+
+.product-ivory {
+    background-color: #f6f6f6;
+    background-image: linear-gradient(-45deg,rgba(255,255,255,0.75),rgba(255,255,255,0.75),rgba(238,238,238,0.75));
+}
+
+.product-jade-black {
+    background-color: #7d7d7d;
+    background-image: linear-gradient(-45deg,rgba(255,255,255,0.75),rgba(255,255,255,0.75),rgba(50,50,50,0.75));
+}
+
+.product-mica-black {
+    background-color: #484848;
+}
+
+.product-emerald {
+    background-color: #2b574e;
+}
+
+.product-sumatra-gray {
+    background-color: #78847f;
+}
+
+.product-glacier-silver {
+    background-color: #e0e0e0;
+    background-image: linear-gradient(90deg,rgba(0,0,0,0.2),rgba(255,255,255,0.2),rgba(0,0,0,0.2));
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.2),rgba(255,255,255,0.2),rgba(0,0,0,0.2));
+}
+.product-sterling-silver {
+    background-color: #c7c7c7;
+    background-image: linear-gradient(-45deg,rgba(255,255,255,0),rgba(255,255,255,0.75),rgba(255,255,255,0.75));
+}
+
+.product-bright-rose-gold {
+    background-color: #eacad3;
+    background-image: linear-gradient(-45deg,rgba(0,0,0,0.2),rgba(255,255,255,0.2),rgba(0,0,0,0.2));
+}
+
+.product-champagne-gold {
+    background-color: #ebebdc;
+    background-image: linear-gradient(-45deg,rgba(0,0,0,0.2),rgba(255,255,255,0.2),rgba(0,0,0,0.2));
+}
+
+.product-champagne-silver {
+    background-color: #777777;
+    background-image: linear-gradient(-45deg,rgba(0,0,0,0.2),rgba(255,255,255,0.2),rgba(0,0,0,0.2));
+}
+
+.product-snowflake-silver {
+    background-color: #dcdcdc;
+    background-image: linear-gradient(-45deg,rgba(0,0,0,0.2),rgba(255,255,255,0.2),rgba(0,0,0,0.2));
+}
+
+.product-cloud-gold {
+    background-color: #f2d493;
+    background-image: linear-gradient(-45deg,rgba(0,0,0,0.2),rgba(255,255,255,0.2),rgba(0,0,0,0.2));
+}
+
+.product-cloud-silver {
+    background-color: #c7c7c7;
+    background-image: linear-gradient(-45deg,rgba(0,0,0,0.2),rgba(255,255,255,0.2),rgba(0,0,0,0.2));
+}
+
+.product-pure-gold {
+    background-color: #b1a167;
+    background-image: linear-gradient(-45deg,rgba(0,0,0,0.2),rgba(255,255,255,0.2),rgba(0,0,0,0.2));
+}
+
+.product-luxemburg {
+    background-color: #c7a25f;
+    background-image: linear-gradient(-45deg,rgba(0,0,0,0.2),rgba(255,255,255,0.2),rgba(0,0,0,0.2));
+}
+
+
+.vertical-line {
+    width: 1px;
+    height: 100%;
+    border-left: 1px solid #000;
+}
+
+@media screen and (min-width: 576px) {
+    .fs-auto {
+        font-size: 1rem;
+    }
+    .nav-home-style {
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+}
+
+
+@media screen and (min-width: 768) {
+    .fs-auto {
+        font-size: 1.25rem;
+    }
+}
